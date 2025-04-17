@@ -1,34 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Tangerine:wght@400;700&display=swap" rel="stylesheet">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+
 </head>
+
 <body>
-    <header>
-        <nav>
-            <img src="../imagens/icon-park-outline_bread.png" alt="">
-            <p>Grandma’s
-                Bakery</p>
-            <ul>
-                <li><a href="">Home</a></li>
-                <li><a href="">About</a></li>
-                <li><a href="">Menu</a></li>
-                <li><a href="">Contact</a></li>
-                
-            </ul>
+    <header class="mb-[40px]">
+        <nav class="flex  justify-center items-center gap-[30px]">
+            <div class="w-xl ">
+                <img src="../imagens/icon-park-outline_bread.png" alt="">
+                <p class="mx-[-25px]">Grandma’s <br>Bakery</p>
+            </div>
+
+            <div class="">
+                <ul class="flex w-xl gap-[30px] justify-center ml-[60px]">
+                    <li><a href="">Home</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Menu</a></li>
+                    <li><a href="">Contact</a></li>
+                </ul>
+            </div>
+
         </nav>
     </header>
     <main>
         <section>
-            <h1>Enjoy fresh items of our Grandma’s Reciepe </h1>
-            <button>See menu</button>
-            <p>* 10% off on first order</p>
-            <img src="../imagens/Rectangle 2260.png" alt="">
-            <img src="../imagens/Rectangle 2261.png" alt="">
-            <img src="../imagens/Rectangle 2262.png" alt="">
+            <div class="flex justify-center flex-col items-center">
+                <h1 class="font-[Tangerine] text-[72px] w-[381px] leading-[70px] " >Enjoy fresh items of our Grandma’s Reciepe </h1>
+                <button class="border p-[5px] bg-black text-white">See Menu</button>
+                <p class="text-[10px]">* 10% off on first order</p>
+            </div>
+            <div class="flex items-center justify-center gap-[40px]">
+                <img src="../imagens/Rectangle 2260.png" alt="">
+                <img src="../imagens/Rectangle 2261.png" alt="">
+                <img src="../imagens/Rectangle 2262.png" alt="">
+            </div>
         </section>
 
         <section>
@@ -41,27 +55,29 @@
 
         <section>
             <h1 class="título">What we offer</h1>
-        <nav>
-            <p class="texto">Introducing you a wide variety of bakery items with unique taste and the creamiest of cakes in the city.</p>
-        </nav>
-        <div class="img">
-            <img src="/imagens/Rectangle 2264.jpg" alt="">
-            <p>Bread</p>
-            <img src="/imagens/Rectangle 2265.jpg" alt="">
-            <p>Cookies</p>
-            <img src="/imagens/Rectangle 2266.jpg" alt="">
-            <p>Macron</p>
-            <img src="/imagens/Rectangle 2267.jpg" alt="">
-            <p>Pretzel</p>
-            <img src="/imagens/Rectangle 2268.jpg" alt="">
-            <p>Cupcakes</p>
-            <img src="/imagens/Rectangle 2269.jpg" alt="">
-            <p>Cakes</p>
-        </div> 
+            <nav>
+                <p class="texto">Introducing you a wide variety of bakery items with unique taste and the creamiest of
+                    cakes in the city.</p>
+            </nav>
+            <div class="img">
+                <img src="/imagens/Rectangle 2264.jpg" alt="">
+                <p>Bread</p>
+                <img src="/imagens/Rectangle 2265.jpg" alt="">
+                <p>Cookies</p>
+                <img src="/imagens/Rectangle 2266.jpg" alt="">
+                <p>Macron</p>
+                <img src="/imagens/Rectangle 2267.jpg" alt="">
+                <p>Pretzel</p>
+                <img src="/imagens/Rectangle 2268.jpg" alt="">
+                <p>Cupcakes</p>
+                <img src="/imagens/Rectangle 2269.jpg" alt="">
+                <p>Cakes</p>
+            </div>
         </section>
     </main>
     <footer>
         tais
     </footer>
 </body>
+
 </html>
