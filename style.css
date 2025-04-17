@@ -8,33 +8,14 @@
     font-family: "Inter", sans-serif;
    }
 
-   .título {
-    text-align: center;
-    font-family: "Roboto", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: <weight>;
-    font-style: normal;
-    font-variation-settings: "wdth" 100;
-    }
-
-   .texto{
-    text-align: center;
-    font-family: "Roboto", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: <weight>;
-    font-style: normal;
-    justify-self: unset;
-    }
-
    .img{
     display: flex;
     justify-content: center;
-    gap: 10px;
+    gap: 50px;
     padding: 03%;
    }
     .img p {
-    color: rgb(34, 3, 3);
-
+    color: rgb(9, 8, 8);
+    justify-content: flex-end;
     
    }
-   
